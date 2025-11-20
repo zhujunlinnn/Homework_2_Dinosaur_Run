@@ -2,20 +2,24 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: PolyArtMaskTint
   m_Shader: {fileID: 4800000, guid: 4a69d1613603b4e49a4c3c871037a378, type: 3}
-  m_ShaderKeywords: 
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -51,6 +55,7 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - _Color01Power: 3
     - _Color02Power: 5.59
@@ -65,10 +70,12 @@ Material:
     - _Smoothness: 0.2
     - __dirty: 0
     m_Colors:
-    - _Color01: {r: 0.057493784, g: 0.2571881, b: 0.7169812, a: 0}
+    - _Color01: {r: 0.538072, g: 0.6076578, b: 0.76729554, a: 0}
     - _Color02: {r: 0.0734247, g: 0.17532073, b: 0.6226415, a: 0}
     - _Color03: {r: 0.107467055, g: 0.21845932, b: 0.6509434, a: 0}
     - _Color04: {r: 0.069597736, g: 0.12340044, b: 0.6415094, a: 0}
     - _Color05: {r: 0.07119971, g: 0.16319779, b: 0.6037736, a: 0}
     - _Color06: {r: 0.18422928, g: 0.4718837, b: 0.8679245, a: 0}
     - _EmissionColor: {r: 2.9960785, g: 2.9960785, b: 2.9960785, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

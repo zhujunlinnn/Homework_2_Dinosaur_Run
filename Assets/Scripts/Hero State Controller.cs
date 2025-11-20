@@ -6,10 +6,14 @@ public class Hero_State_Controller : MonoBehaviour
     Animator animator;
     int isRunningHash;
 
+    int isJumping;
+    Transform playTransform;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         animator = GetComponent<Animator>();
+        playTransform = GetComponent<Transform>();
 
         // Increases performance
         isRunningHash = Animator.StringToHash("isRunning");
@@ -26,6 +30,7 @@ public class Hero_State_Controller : MonoBehaviour
         {
             // Then set the isRunning boolean to be true
             animator.SetBool(isRunningHash, true);
+            
         }
 
         // If player is not pressing left shift key
